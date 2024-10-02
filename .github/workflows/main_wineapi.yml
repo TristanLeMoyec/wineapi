@@ -75,4 +75,5 @@ jobs:
         with:
           app-name: 'wineapi'
           slot-name: 'Production'
-          
+      - name: Install dependencies
+        run: pip install -r requirements.txt
